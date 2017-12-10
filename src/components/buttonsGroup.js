@@ -24,7 +24,8 @@ class ButtonGroup extends Component {
 const styles = {
   button: {
     justifyContent: 'center',
-    marginBottom: 20,}
+    marginBottom: 20,
+  }
 };
 
 export default ButtonGroup;

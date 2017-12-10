@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Animated, Easing, Text } from 'react-native';
-import { Container, Content, Icon, Button } from 'native-base';
+import { Animated, Easing, Platform, Text } from 'react-native';
+import { Container, Content, Icon, Form, Picker, Header, Body, Left, Right,Button, Title, Item } from 'native-base';
 
 import * as Animatable from 'react-native-animatable';
 
@@ -71,7 +71,7 @@ class WelcomeScreen extends Component {
             Quick Taxi APP
           </Animated.Text>
 
-          <Animated.View style={[styles.buttonasContainer, { opacity: opacityButtons }]}>
+          <Animated.View style={[styles.buttonsContainer, { opacity: opacityButtons }]}>
             <ButtonsGroup
               buttons={[
                 { title: 'Sign In', navitageTo: () => this.props.navigation.navigate('signIn') },

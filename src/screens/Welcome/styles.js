@@ -12,7 +12,7 @@ export default {
     fontSize: 20,
     color: '#6D0F6C',
   },
-  buttonasContainer: {
+  buttonsContainer: {
     marginTop: 50,
     alignSelf: 'stretch',
     marginHorizontal: 20
