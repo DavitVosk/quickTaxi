@@ -11,5 +11,10 @@ export default {
   text: {
     fontSize: 20,
     color: '#6D0F6C',
-  }
+  },
+  buttonasContainer: {
+    marginTop: 50,
+    alignSelf: 'stretch',
+    marginHorizontal: 20
+  },
 };

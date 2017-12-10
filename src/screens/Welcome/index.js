@@ -71,7 +71,15 @@ class WelcomeScreen extends Component {
             Quick Taxi APP
           </Animated.Text>
 
-          <ButtonsGroup style={{ opacity: opacityButtons }} {...this.props} />
+          <Animated.View style={[styles.buttonasContainer, { opacity: opacityButtons }]}>
+            <ButtonsGroup
+              buttons={[
+                { title: 'Sign In', navitageTo: () => this.props.navigation.navigate('signIn') },
+                { title: 'Sign Up', navitageTo: () => this.props.navigation.navigate('signUp') },
+                { title: 'Social Sign In', navitageTo: () => {} },
+              ]}
+            />
+          </Animated.View>
         </Content>
       </Container>
     );
