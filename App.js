@@ -5,8 +5,14 @@ import WelcomeScreen from './src/screens/Welcome';
 import SignInScreen from './src/screens/SignIn';
 import SignUpScreen from './src/screens/SignUp';
 
+import * as firebase from 'firebase';
+import firebaseConfig from './src/config/firebase';
 
 export default class App extends React.Component {
+  componentWillMount() {
+    firebase.initializeApp(firebaseConfig);
+  }
+
   render() {
     const MainNavigation = TabNavigator({
       welcome: { screen: WelcomeScreen },
