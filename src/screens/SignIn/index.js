@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { View, Text, Alert } from 'react-native';
-import { Container, Content, Form, Item, Input, Label, Button, Icon } from 'native-base';
+import { Container, Content, Form, Button, Icon } from 'native-base';
 import { connect } from 'react-redux';
 
 import Header from '../../components/header';
 import * as validate from '../../utils/validation/validation';
 import styles from './styles';
-import { signIn } from './actions';
+import { signIn } from '../../actions';
+import Input from '../../components/input';
 
 class SignInScreen extends Component {
   constructor(props) {
@@ -15,11 +16,6 @@ class SignInScreen extends Component {
     this.state = this.initialState
   }
   
-  componentWillMount() {
-    console.log('mounted', );
-  }
-  
-
   componentWillReceiveProps(nextProps) {
     if (nextProps.user) {
       this.props.navigation.navigate('map')
@@ -67,30 +63,19 @@ class SignInScreen extends Component {
 
           <View style={{ flex: 2 }}>
             <Form>
-              <Item floatingLabel last>
-                <Label>USERNAME</Label>
-                <Input
-                  clearButtonMode={'while-editing'}
-                  value={this.state.email}
-                  onChangeText={(text) => this.setState({ email: text, emailError: '' })}
-                  keyboardType='email-address'
-                  autoCorrect={false}
-                  autoCapitalize='none'
-                />
-              </Item>
+              <Input
+                label='Email'
+                value={this.state.email}
+                onChangeText={(text) => this.setState({ email: text, emailError: '' })}
+              />
               <Text style={styles.errorMessage}>{this.state.emailError}</Text>
 
-              <Item floatingLabel last>
-                <Label>PASSWORD</Label>
-                <Input
-                  secureTextEntry
-                  value={this.state.password}
-                  onChangeText={(text) => this.setState({ password: text, passwordError: '' })}
-                  keyboardType='email-address'
-                  autoCorrect={false}
-                  autoCapitalize='none'
-                />
-              </Item>
+              <Input
+                label='Password'
+                value={this.state.password}
+                onChangeText={(text) => this.setState({ password: text, passwordError: '' })}
+                secureTextEntry
+              />
               <Text style={styles.errorMessage}>{this.state.passwordError}</Text>
             </Form>
 
