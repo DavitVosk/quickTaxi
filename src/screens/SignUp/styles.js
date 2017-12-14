@@ -2,11 +2,12 @@ export default styles = {
   content: {
     flex: 1,
     justifyContent:'center',
-    backgroundColor: '#ABC1E8',
     paddingHorizontal: 20
   },
   button:{
-    marginTop: 20
+    marginTop: 20,
+    borderRadius: 10,
+    backgroundColor: '#F6B01A'
   },
   errorMessage:{
     color: 'red',
@@ -21,4 +22,8 @@ export default styles = {
     fontSize: 20,
     color: '#6D0F6C',
   },
+  btnText:{
+    color: 'white',
+    fontSize: 17
+  }
 }

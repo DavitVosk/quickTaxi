@@ -3,7 +3,7 @@ export default {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#92B1E9'
+    backgroundColor: 'white'
   },
   icon: {
     color: '#6D0F6C',
@@ -13,7 +13,7 @@ export default {
     color: '#6D0F6C',
   },
   buttonsContainer: {
-    marginTop: 50,
+    marginTop: 130,
     alignSelf: 'stretch',
     marginHorizontal: 20
   },

@@ -7,7 +7,7 @@ import { Provider } from 'react-redux';
 import WelcomeScreen from './src/screens/Welcome';
 import SignInScreen from './src/screens/SignIn';
 import SignUpScreen from './src/screens/SignUp';
-import MapScreen from './src/screens/MapScreen';
+import MapScreen from './src/screens/Map';
 
 import firebaseConfig from './src/config/firebase';
 import store from './src/store';
@@ -20,9 +20,9 @@ export default class App extends React.Component {
   render() {
     const MainNavigation = TabNavigator({
       welcome: { screen: WelcomeScreen },
+      map: { screen: MapScreen },
       signIn: { screen: SignInScreen },
       signUp: { screen: SignUpScreen },
-      map: { screen: MapScreen },
     }, {
       navigationOptions: {
         tabBarVisible: false,

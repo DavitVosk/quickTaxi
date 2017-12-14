@@ -64,7 +64,7 @@ class SignUpScreen extends Component {
 
   render() {
     return (
-      <Container style={{ backgroundColor: '#ABC1E8' }}>
+      <Container>
         <Header title='Sign Up'
                 left='arrow-back'
                 leftPress={() => {
@@ -117,7 +117,7 @@ class SignUpScreen extends Component {
               style={styles.button}
               onPress={this.validateInputs}
             >
-              <Text>Submit</Text>
+              <Text style={styles.btnText}>Submit</Text>
             </Button>
           </View>
         </Content>
