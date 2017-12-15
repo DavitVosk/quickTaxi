@@ -19,8 +19,8 @@ export default class App extends React.Component {
 
   render() {
     const MainNavigation = TabNavigator({
-      welcome: { screen: WelcomeScreen },
       map: { screen: MapScreen },
+      welcome: { screen: WelcomeScreen },
       signIn: { screen: SignInScreen },
       signUp: { screen: SignUpScreen },
     }, {

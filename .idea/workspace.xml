@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9af5fc0-3e4f-40b3-9095-d66c2d2842f3" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/screens/MapScreen/index.js" afterPath="$PROJECT_DIR$/src/screens/Map/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App.js" afterPath="$PROJECT_DIR$/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/buttonsGroup.js" afterPath="$PROJECT_DIR$/src/components/buttonsGroup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/SignIn/index.js" afterPath="$PROJECT_DIR$/src/screens/SignIn/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/SignIn/styles.js" afterPath="$PROJECT_DIR$/src/screens/SignIn/styles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/SignUp/index.js" afterPath="$PROJECT_DIR$/src/screens/SignUp/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/SignUp/styles.js" afterPath="$PROJECT_DIR$/src/screens/SignUp/styles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/Welcome/styles.js" afterPath="$PROJECT_DIR$/src/screens/Welcome/styles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/Map/index.js" afterPath="$PROJECT_DIR$/src/screens/Map/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +20,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/screens/Map/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            <state relative-caret-position="1269">
+              <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -81,12 +74,12 @@
         <option value="$PROJECT_DIR$/src/screens/SignUp/utils.js" />
         <option value="$PROJECT_DIR$/src/components/buttonsGroup.js" />
         <option value="$PROJECT_DIR$/src/screens/Welcome/styles.js" />
-        <option value="$PROJECT_DIR$/src/screens/Map/index.js" />
-        <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/src/screens/SignUp/index.js" />
         <option value="$PROJECT_DIR$/src/screens/SignIn/index.js" />
         <option value="$PROJECT_DIR$/src/screens/SignIn/styles.js" />
         <option value="$PROJECT_DIR$/src/screens/SignUp/styles.js" />
+        <option value="$PROJECT_DIR$/App.js" />
+        <option value="$PROJECT_DIR$/src/screens/Map/index.js" />
       </list>
     </option>
   </component>
@@ -225,12 +218,12 @@
       <workItem from="1512904912964" duration="183000" />
       <workItem from="1512906614775" duration="8325000" />
       <workItem from="1512920117991" duration="17213000" />
-      <workItem from="1513274762894" duration="1552000" />
+      <workItem from="1513274762894" duration="8816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45483000" />
+    <option name="totallyTimeSpent" value="52747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="60" width="1499" height="922" extended-state="0" />
@@ -424,14 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/SignIn/actions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -496,10 +481,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/Map/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        <state relative-caret-position="1269">
+          <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
           <folding />
         </state>
       </provider>
